@@ -2,6 +2,11 @@
 
 HParm is a simple module build to load yaml files in both dot notation as well as dictionary access notation.
 
+## Install hparm
+```
+pip install git+https://github.com/knoriy/hparm.git
+```
+
 ## Examples
 
 ### Example yaml file and use case
