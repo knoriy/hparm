@@ -7,11 +7,11 @@ HParm is a simple module build to load yaml files in both dot notation as well a
 ### Example yaml file and use case
 ```
 paths:
-    first_file: 'path/to/first_file.yaml'
-    second_file: 'path/to/second_file.yaml'
+  first_file: 'path/to/first_file.yaml'
+  second_file: 'path/to/second_file.yaml'
 variable:
-    epochs:100
-    batch: 16
+  epochs:100
+  batch: 16
 
 ```
 
