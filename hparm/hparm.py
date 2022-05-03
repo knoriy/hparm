@@ -1,7 +1,7 @@
 import os
 import yaml
 
-def load_hparam(filename):
+def load_hparam(filename:str):
     stream = open(filename, "r")
     docs = yaml.load_all(stream, Loader=yaml.Loader)
     hparam_dict = dict()
@@ -32,7 +32,7 @@ class Dotdict(dict):
 
 
 class HParam(Dotdict):
-    def __init__(self, file):
+    def __init__(self, file:str):
         super(Dotdict, self).__init__()
         hp_dict = load_hparam(file)
         hp_dotdict = Dotdict(hp_dict)
