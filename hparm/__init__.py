@@ -1,1 +1,1 @@
-from hparm import HParam
+from .hparm import HParam
