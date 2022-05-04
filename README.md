@@ -23,7 +23,7 @@ variable:
 ```
 from hparm import HParm
 
-hp = hparm('dir/to/file.yaml')
+hp = HParm('dir/to/file.yaml')
 
 # dictionary notation
 hp['variable']['epochs]
