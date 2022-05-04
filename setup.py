@@ -7,7 +7,7 @@ here = os.path.abspath(os.path.dirname(__file__))
 with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
     long_description = "\n" + fh.read()
 
-VERSION = '0.0.01'
+VERSION = '0.0.02'
 DESCRIPTION = 'Loads yaml file to a python structure'
 LONG_DESCRIPTION = '_'
 
@@ -21,10 +21,10 @@ setup(
     long_description_content_type="text/markdown",
     long_description=long_description,
     packages=find_packages(),
-    install_requires=[],
+    install_requires=['PyYAML'],
     keywords=['python', 'yaml'],
     classifiers=[
-        "Development Status :: 1 - Release",
+        "Development Status :: 5 - Production/Stable",
         "Intended Audience :: Developers",
         "Programming Language :: Python :: 3",
         "Operating System :: Unix",
